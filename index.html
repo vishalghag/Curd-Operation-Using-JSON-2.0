@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curd Operation 6</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+  <!-- css link for bootstrap v4 -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+  <script src="https://kit.fontawesome.com/e1839803ae.js" crossorigin="anonymous"></script>
+
+  
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="row">
+          <div class="col-md-12">
+    
+            <div class="modal fade" id="myModal">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+    
+                  <div class="heads">
+                    <h1 id="chang">ADD NEW USERS</h1>
+                    <div class="modal-header">
+    
+                    </div>
+                  </div>        
+    
+                  <div class="modal-body">
+                    <form id="form">
+                      
+                      <div>
+                        <input type="hidden" id="indxx">
+                        <div id="nameValidation" class="text-danger"></div>
+                        <label for="name" id="user1">Name :-</label>
+                        
+                        <input type="text" id="name" placeholder="name" >
+                        <!-- <span id="nameValidation" class="text-danger"></span> -->
+                        
+                        <label for="date" id="user2">D.O.B:-</label>
+                        <input type="date" id="dob">
+    
+                      </div>
+    
+                      <div>
+                        <label for="age">Age:-</label>
+                        <input type="number" id="age" placeholder="Age">
+    
+                        <label for="gender" id="user3">Gender:-</label>
+                        <input type="text" id="gender" placeholder="Male OR Female">
+                        <!-- <input type="radio" id="gender" name="gender">
+                        <label for="male" >Male</label> -->
+                        <!-- <input type="radio" id="gender1" name="gender">
+                        <label for="female" >Female</label> -->
+                      </div>
+    
+                      <div>
+                        <label for="address">Address:-</label>
+                        <input type="text" id="address" placeholder="Address">
+                      </div>
+    
+                      <div>
+                        <label for="designation">Designation:-</label>
+                        <input type="text" id="designation" placeholder="Designation">
+
+                       
+                        <label for="salary" id="user4">Salary :-</label>
+                        <input type="number" id="salary">
+                        <span id="salaryValidation" class="text-danger"></span>
+                      </div>
+    
+    
+                 
+    
+                  </div>
+    
+                  <div class="modal-footer">
+                    <input class="btn btn-danger" data-dismiss="modal" value="Close">
+                   <button id="res" type="submit">Submit</button>
+                  
+                  </div>
+                </form>
+                </div>
+    
+              </div>
+            </div>
+    
+    
+          </div>
+        </div>
+      </div>
+    
+      <div id="addMe">
+        <a href="#" data-toggle="modal" data-target="#myModal" id="btn"> + ADD USER </a>
+      </div>
+    
+      <div class="flex-container" id="flex-container">
+    
+        <!-- <div class="flex-items">
+    
+          <div id="card-image"></div> -->
+    
+        <table class="table">
+    
+        </table>
+    
+      </div>
+      </div>
+
+
+     
+        <!-- jQuery library -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+      
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script src="script.js"></script>
+</body>
+</html>

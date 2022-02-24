@@ -1,0 +1,157 @@
+#addMe a{
+    background-color: blue;
+    color: whitesmoke;
+    padding: 15px 20px;
+    text-decoration: none;
+    float: right;
+    margin-top: 60px;
+    /* margin-bottom: 50px; */
+}
+
+.heads
+{
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid lightblue;
+    /* width: 700px; */
+    /* margin: auto; */
+}
+
+#date
+{
+    float: right;
+}
+
+#user2
+{
+    margin-left: 150px ;
+}
+
+#age
+{
+    margin-top: 7px;
+    margin-left: 91px;
+}
+
+#gender
+{
+    float: right;
+    margin-top: 7px;
+}
+
+#user3
+{
+    margin-left: 162px ;
+}
+
+#address
+{
+    margin-top: 7px;
+    margin-left: 62px;
+    width: 600px;
+    height: 100px;
+}
+
+#designation
+{
+    margin-top: 7px;
+    margin-left: 32px;
+}
+
+#salary
+{
+    float: right;
+    margin-top: 7px;
+}
+
+#user4
+{
+    margin-left: 162px;
+}
+
+.fott
+{
+    box-sizing: border-box;
+    border: 1px solid rgb(195, 173, 230);
+}
+
+.flex-container
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 200px;
+}
+
+.flex-items
+{
+    box-sizing: border-box;
+    border: 2px solid lightblue;
+    margin: 10px;
+    width: 270px;
+    height: 450px;
+    border-radius: 30px;
+}
+
+#card-image
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #512DA8;
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    line-height: 150px;
+    margin: 10px 5px 15px 57px;
+    
+}
+
+
+.edited
+{
+    margin-top: 13px;
+    background-color: rgb(19, 102, 129);
+    color: whitesmoke;
+    /* justify-content: center; */
+    text-align: center;
+    font-size: 20px;
+}
+
+.fa-trash-can
+{
+    float: right;
+    margin-top: 10px;
+    margin-right: 8px;
+    color: red;
+}
+
+#res
+{
+    /* margin-top: 13px; */
+    background-color: rgb(19, 102, 129);
+    color: whitesmoke;
+    /* justify-content: center; */
+    text-align: center;
+    font-size: 20px;
+}
+
+#salaryValidation
+{
+    float: right;
+}
+
+#name
+{
+    margin-left: 76px;
+}
+
+#user1:after{
+    content: " *";
+    color: red;
+}
+
+#user4:after{
+    content: " *";
+    color: red;
+}
